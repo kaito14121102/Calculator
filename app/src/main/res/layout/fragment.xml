@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_result"
+        style="@style/customTextView"
+        android:text="0" />
+
+    <LinearLayout style="@style/linearLayoutCustom">
+        <Button
+            android:id="@+id/button_ac"
+            style="@style/customButton"
+            android:text="@string/btn_ac" />
+
+        <Button
+            android:id="@+id/button_left"
+            style="@style/customButton"
+            android:text="@string/btn_left" />
+
+        <Button
+            android:id="@+id/button_right"
+            style="@style/customButton"
+            android:text="@string/btn_right" />
+
+        <Button
+            android:id="@+id/button_divide"
+            style="@style/customButtonOrange"
+            android:text="@string/btn_divide" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearLayoutCustom">
+        <Button
+            android:id="@+id/button_7"
+            style="@style/customButton"
+            android:text="@string/btn_7" />
+
+        <Button
+            android:id="@+id/button_8"
+            style="@style/customButton"
+            android:text="@string/btn_8" />
+
+        <Button
+            android:id="@+id/button_9"
+            style="@style/customButton"
+            android:text="@string/btn_9" />
+
+        <Button
+            android:id="@+id/button_multiply"
+            style="@style/customButtonOrange"
+            android:text="@string/btn_multiply" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearLayoutCustom">
+        <Button
+            android:id="@+id/button_4"
+            style="@style/customButton"
+            android:text="@string/btn_4" />
+
+        <Button
+            android:id="@+id/button_5"
+            style="@style/customButton"
+            android:text="@string/btn_5" />
+
+        <Button
+            android:id="@+id/button_6"
+            style="@style/customButton"
+            android:text="@string/btn_6" />
+
+        <Button
+            android:id="@+id/button_minus"
+            style="@style/customButtonOrange"
+            android:text="@string/btn_minus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearLayoutCustom">
+        <Button
+            android:id="@+id/button_1"
+            style="@style/customButton"
+            android:text="@string/btn_1" />
+
+        <Button
+            android:id="@+id/button_2"
+            style="@style/customButton"
+            android:text="@string/btn_2" />
+
+        <Button
+            android:id="@+id/button_3"
+            style="@style/customButton"
+            android:text="@string/btn_3" />
+
+        <Button
+            android:id="@+id/button_plus"
+            style="@style/customButtonOrange"
+            android:text="@string/btn_plus" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linearLayoutCustom">
+        <Button
+            android:id="@+id/button_0"
+            style="@style/customButton"
+            android:layout_weight="2"
+            android:text="@string/btn_0" />
+
+        <Button
+            android:id="@+id/button_dot"
+            style="@style/customButton"
+            android:text="@string/btn_dot" />
+
+        <Button
+            android:id="@+id/button_equal"
+            style="@style/customButtonOrange"
+            android:text="@string/btn_equal" />
+    </LinearLayout>
+
+</LinearLayout>
