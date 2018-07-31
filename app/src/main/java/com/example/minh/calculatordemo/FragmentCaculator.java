@@ -96,15 +96,15 @@ public class FragmentCaculator extends Fragment implements View.OnClickListener 
 
     public int getPriority(String op) {
         if (op.equals(MULTIPLY) || op.equals(DIVIDE)) {
-            return 2;
+            return TWO;
         }
         if (op.equals(PLUS) || op.equals(MINUS)) {
-            return 1;
+            return ONE;
         }
         if (op.equals(LEFT) || op.equals(RIGHT)) {
-            return 0;
+            return ZERO;
         }
-        return 3;
+        return THREE;
     }
 
     public String convertToPostfix(String expression) {
